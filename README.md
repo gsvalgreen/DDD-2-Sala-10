@@ -67,6 +67,10 @@ Kernel, Anticorruption Layer, etc.**).
 - [Lucidchart](https://www.lucidchart.com/)
 - [Figma](https://www.figma.com/)
 
+📌 **Context Map:**
+
+![Context Map](./context_map.png)
+
 ## 📌 Aula 3: Próximos Passos
 
 Na próxima aula, vamos explorar **Design Tático**, abordando:  
