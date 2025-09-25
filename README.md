@@ -55,6 +55,10 @@ Kernel, Anticorruption Layer, etc.**).
 | Contexto de Rastreabilidade | Contexto de Certificação           | **Anticorruption Layer (ACL)** | Para certificar um produtor, é preciso monitorar os diversos tipos de movimentações rastreadas, o contexto de certificação traduz as movimentações para uma estrutura comum de dados a ser validada. |
 | Contexto de Certificação    | Contexto de Acesso a crédito verde | **Shared Kernel**              | A liberação de acesso a crédito verde só acontece enquanto a certificação está válida                                                                                                                |
 
+📌 **Diagrama do Context Map:**
+
+![Context Map](./docs/diagrams/context-map.png)
+
 📌 **Formato de Entrega:**
 
 - O trabalho pode ser entregue em **Markdown (.md), PDF ou apresentação (PPT)**.
