@@ -15,7 +15,7 @@ rectangle "Contexto de Acesso ao\nCrédito Verde\n(Supporting)" as Credito <<Sup
 
 ' Relacionamentos principais
 Produtores --> Rastreabilidade : "Customer-Supplier\n(Produtor cadastrado é pré-requisito)"
-Rastreabilidade --> Certificacao : "Anticorruption Layer (ACL)\n(Traduz movimentações para certificação)"
+Rastreabilidade --> Certificacao : "Anticorruption Layer (ACL)\n(Traduz movimentações para serem verificados no contexto de certificação)"
 Certificacao <--> Credito : "Shared Kernel\n(Certificação válida libera crédito verde)"
 
 @enduml
