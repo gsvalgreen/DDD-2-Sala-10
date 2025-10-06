@@ -1,0 +1,18 @@
+```mermaid
+%% Exemplo de Context Mapping (mermaid)
+%% Cole em https://mermaid.live/ para renderizar
+graph LR
+  GP[Gestão de Produtores]
+  RAST[Rastreabilidade]
+  CERT[Certificação de Sustentabilidade]
+  CRED[Acesso ao Crédito Verde]
+  BUREAUS[Integração com Bureaus de Crédito (Gen.)]
+  GOV[Integração com Dados Governamentais (Gen.)]
+
+  GP -->|Customer-Supplier\n(provedor de dados de produtor)| RAST
+  RAST -->|Anticorruption Layer (ACL)\n(normaliza eventos e modelos)| CERT
+  CERT ---|Shared Kernel\n(contratos de certificação / validade)| CRED
+  CERT -->|Consulta / Enriquecimento| BUREAUS
+  CERT -->|Consulta / Verificação| GOV
+  CRED -->|Consulta de elegibilidade| BUREAUS
+```
